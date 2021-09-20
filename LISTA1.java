@@ -76,7 +76,7 @@ public class Lista1 {
 		
 		double area = altura*largura;
 		
-		double perimetro = altura + largura;
+		double perimetro = (altura + largura)*2;
 		
 		System.out.println("Area = " + area);
 		System.out.println("Perimetro = " + perimetro);
