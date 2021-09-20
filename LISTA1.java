@@ -113,11 +113,23 @@ public class Lista1 {
 		System.out.println("Nome do Aluno: ");
 		String NomeAluno = ler.next();
 		System.out.println("Digite as 3 notas do aluno: ");
-		double nota1 = ler.nextDouble();
-		double nota2 = ler.nextDouble();
-		double nota3 = ler.nextDouble();
 		
-		double notafinal = nota1 + nota2 + nota3;
+		double nota1 = ler.nextDouble();
+		while(nota1>30) {
+			System.out.println("Nota 1 deve ser no max 30: ");
+			nota1 = ler.nextDouble();
+		}
+		double nota2 = ler.nextDouble();
+		while(nota2>30) {
+			System.out.println("Nota 1 deve ser no max 30: ");
+			nota2 = ler.nextDouble();
+		}
+		double nota3 = ler.nextDouble();
+		while(nota3>35) {
+			System.out.println("Nota 1 deve ser no max 35: ");
+			nota3 = ler.nextDouble();
+		}
+		uble notafinal = nota1 + nota2 + nota3;
 		
 		System.out.println("Nota final = " + notafinal);
 		
